@@ -127,4 +127,8 @@ Modificamos la máquina para las **otras dos configuraciones**:
 Y ya por último aquí tenemos los **tiempos**:
 
 
-
+|RAM|TIEMPO|
+|---|------|
+|512||
+|256||
+|1024|
