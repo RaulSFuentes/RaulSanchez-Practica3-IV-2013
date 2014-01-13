@@ -14,21 +14,19 @@ Pues nada, empecemos con ello.
 
 Máquinas:
 
-Debian
+Debian 7
 
-	512 RAM 8GB (Recomendada por VirtualBox)
+	512 RAM (Recomendada por VirtualBox)
 
-        256 RAM 8GB
+	256 RAM
 
-	256 RAM 6GB
+	1024 RAM
 
-	1024 RAM 8GB
+Ubuntu 12.04
 
-	1024 RAM 12GB
-
-	512 RAM 12GB
-
-CentOS
+	512 RAM
+	256 RAM
+	1024 RAM
 
 
 Emperzaremos por mostrar como se crea una nueva máquina virtual en VirtualBox.
@@ -68,6 +66,46 @@ Y ya realizar una instalación normal del sistema.
 
 
 En estos pasos hemos dejado la configuración por defecto que nos índica VirtualBox. Esta configuración la utilizaremos como base, y copiaremos esta máquina virtual para las siguientes, modificando solo los valores que nos interesen.
+
+
+Una vez ya tenemos la máquina funcionando, pasamos a instalarle los paquetes que necesito para mi aplicación:
+
+Apache:
+
+![IV](https://dl.dropboxusercontent.com/s/8fdf0ghk8t365au/10.png)
+
+
+Python:
+
+![IV](https://dl.dropboxusercontent.com/s/2orslkm9nbpr3mo/11.png)
+
+Apache benchmark:
+
+![IV](https://dl.dropboxusercontent.com/s/yr30g1x3hfdepo3/13.png)
+
+Ahora copiamos la aplicación en /var/www y la lanzamos: python ej1.py.
+
+
+Y por último relanzamos apache:
+
+![IV](https://dl.dropboxusercontent.com/s/ak9qnbw0jsjd95m/14.png)
+
+
+Y ahora ya sacar los tiempos con ab -n 1000 -c 100 (1000 peticiones con 100 en concurrente):
+
+![IV](https://dl.dropboxusercontent.com/s/eerdvobuf8gsot3/15.png)
+
+
+Modificamos la máquina para las otras dos configuraciones:
+
+
+![IV](https://dl.dropboxusercontent.com/s/gvsrnhqi6wpful8/16.png)
+
+
+![IV](https://dl.dropboxusercontent.com/s/a9h4hz3vw3nimv1/17.png)
+
+
+Y ya por último aquí tenemos los tiempos:
 
 
 
