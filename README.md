@@ -112,7 +112,7 @@ Y por último **relanzamos apache**:
 
 Y ahora ya sacar los **tiempos** con ab -n 1000 -c 100 (1000 peticiones con 100 en concurrente):
 
-![IV](https://dl.dropboxusercontent.com/s/eerdvobuf8gsot3/15.png)
+![IV](https://dl.dropboxusercontent.com/s/2yr39f8g9lymbmv/41512.png?m=)
 
 
 Modificamos la máquina para las **otras dos configuraciones**:
@@ -129,27 +129,24 @@ Y ya por último aquí tenemos los **tiempos**:
 
 |RAM|TIEMPO TOTAL| TIEMPO POR RESPUESTA|
 |---|------|--------------|
-|512 MB|6.031 seg|603.090 ms|
-|256 MB|14.491 seg|1449.104 ms|
-|1024 MB|4.112|411.187 ms|
+|512 MB|8.613 seg|861.315 ms|
+|256 MB|9.885 seg|988.468 ms|
+|1024 MB|6.243|624.341 ms|
 
 
-Ahora pasamos a instalar Ubuntu. La creación de la máquina virtual es similar a la creada anteriormente, y las configuraciones también son similares.
-
-Pasaremos a mostrar la instalación de los paquetes necesarios, así como las mediciones de tiempo.
-
-![IV]()
+Ahora pasamos a instalar Ubuntu. La creación de la máquina virtual es similar a la creada anteriormente, y las configuraciones también son similares, por tanto mostraremos directamente los tiempos.
 
 
+![IV](https://dl.dropboxusercontent.com/s/a5llhviunqwihzf/30.png)
 
 
 **Tiempos Ubuntu**:
 
 |RAM|TIEMPO TOTAL| TIEMPO POR RESPUESTA|
 |---|------|--------------|
-|512 MB|6.031 seg|603.090 ms|
-|256 MB|14.491 seg|1449.104 ms|
-|1024 MB|4.112|411.187 ms|
+|512 MB|1.921 seg|192.117 ms|
+|256 MB|4.389 seg|438.876 ms|
+|1024 MB|1.793|179.263 ms|
 
 
 
@@ -159,7 +156,7 @@ Primero mostramos las gráficas individuales:
 
 **Debian**:
 
-![IV](https://dl.dropboxusercontent.com/s/vx4utqw1b9av4g3/21.png)
+![IV]()
 
 
 **Concluiones**
