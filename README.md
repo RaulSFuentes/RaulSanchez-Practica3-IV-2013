@@ -31,7 +31,7 @@ Para ello se va a instarlar un sistema ubuntu y se modificará las propiedades d
 Pues nada, empecemos con ello.
 
 
-Máquinas:
+Máquinas (Todas con un único procesador):
 
 **Debian 7.3**
 
@@ -156,7 +156,26 @@ Primero mostramos las gráficas individuales:
 
 **Debian**:
 
-![IV]()
+![IV](https://dl.dropboxusercontent.com/s/3ius3mirnikcsrs/debian.png)
+
+
+**Ubuntu**
+
+![IV](https://dl.dropboxusercontent.com/s/ugznqplt7aruugs/ubuntu.png)
+
+
+**Conjunto**
+
+![IV](https://dl.dropboxusercontent.com/s/ry38w644t48hda9/ambos.png)
+
 
 
 **Concluiones**
+
+Una vez ya hemos instalado y probado todas las máquinas virtuales de este estudio y sus diferentes configuraciones podemos sacar varias conclusiones.
+
+Mirando las gráficas individuales comprobamos que si escogiesemos instalar la máquina Debian, escogeriamos la configuración más alta (1024Mb) aún con el coste que supondría esto, ya que la diferencia de tiempo es considerable.
+
+Sin embargo si decidiesemos isntalar Ubuntu, nos quedaríamos con la configuración intermedia, ya que la diferencia entre esta y la más alta es despreciable, y por ello es innecesario ese uso de memoria extra.
+
+Y como conclusión final se muestra como entre las dos máquina aquí probadas sin duda se escogeria la máquina Ubunto ya que la diferencia de tiempo es bastante elevada. Así que de todas estas configuraciones nos quedaríamos con la máquina con Ubuntu y una configuración de memoria RAM de 512 MB.
