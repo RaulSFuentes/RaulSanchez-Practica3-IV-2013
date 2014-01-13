@@ -127,8 +127,39 @@ Modificamos la máquina para las **otras dos configuraciones**:
 Y ya por último aquí tenemos los **tiempos**:
 
 
-|RAM|TIEMPO|
-|---|------|
-|512||
-|256||
-|1024|
+|RAM|TIEMPO TOTAL| TIEMPO POR RESPUESTA|
+|---|------|--------------|
+|512 MB|6.031 seg|603.090 ms|
+|256 MB|14.491 seg|1449.104 ms|
+|1024 MB|4.112|411.187 ms|
+
+
+Ahora pasamos a instalar Ubuntu. La creación de la máquina virtual es similar a la creada anteriormente, y las configuraciones también son similares.
+
+Pasaremos a mostrar la instalación de los paquetes necesarios, así como las mediciones de tiempo.
+
+![IV]()
+
+
+
+
+**Tiempos Ubuntu**:
+
+|RAM|TIEMPO TOTAL| TIEMPO POR RESPUESTA|
+|---|------|--------------|
+|512 MB|6.031 seg|603.090 ms|
+|256 MB|14.491 seg|1449.104 ms|
+|1024 MB|4.112|411.187 ms|
+
+
+
+**Comparativa**
+
+Primero mostramos las gráficas individuales:
+
+**Debian**:
+
+![IV](https://dl.dropboxusercontent.com/s/vx4utqw1b9av4g3/21.png)
+
+
+**Concluiones**
