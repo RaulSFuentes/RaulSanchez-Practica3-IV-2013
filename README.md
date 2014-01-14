@@ -178,4 +178,4 @@ Mirando las gráficas individuales comprobamos que si escogiesemos instalar la m
 
 Sin embargo si decidiesemos isntalar Ubuntu, nos quedaríamos con la configuración intermedia, ya que la diferencia entre esta y la más alta es despreciable, y por ello es innecesario ese uso de memoria extra.
 
-Y como conclusión final se muestra como entre las dos máquina aquí probadas sin duda se escogeria la máquina Ubunto ya que la diferencia de tiempo es bastante elevada. Así que de todas estas configuraciones nos quedaríamos con la máquina con Ubuntu y una configuración de memoria RAM de 512 MB.
+Y como conclusión final se muestra como entre las dos máquina aquí probadas sin duda se escogeria la máquina Ubuntu ya que la diferencia de tiempo es bastante elevada. Así que de todas estas configuraciones nos quedaríamos con la máquina con Ubuntu y una configuración de memoria RAM de 512 MB.
